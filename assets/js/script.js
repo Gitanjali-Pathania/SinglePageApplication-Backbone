@@ -106,11 +106,11 @@ var responseObj=[],answerObject=[],chartData=[];
 
 	// Prefill the collection with a number of services.
 	var services = new ServiceList([
-		new Service({ question: 'Are you a web developer?', answer: "yes", option1: "yes", option2: "no"}),
-		new Service({ question: 'Willing to relocate?', answer: "no", option1: "yes", option2: "no"}),
-		new Service({ question: 'Do you have more than 2 yrs of experience?', answer: "no", option1: "yes", option2: "no"}),
-		new Service({ question: 'Do you have any specialiation?', answer: "yes", option1: "yes", option2: "no"}),
-		new Service({ question: 'Do you have citizenship of the country you are applying for?', answer: "yes", option1: "yes", option2: "no"})
+		new Service({ question: 'Silicon Valley of India?', answer: "bangalore", option1: "bangalore", option2: "Delhi"}),
+		new Service({ question: 'Top IT Company in terms of Revenue?', answer: "microsoft", option1: "Facebook", option2: "microsoft"}),
+		new Service({ question: 'Whether India has more than 20,000 Companies/startups?', answer: "yes", option1: "yes", option2: "no"}),
+		new Service({ question: 'Which sector has most happening jobs in India?', answer: "IT", option1: "IT", option2: "government"}),
+		new Service({ question: 'Are you in Bangalore?', answer: "yes", option1: "yes", option2: "no"})
 		// Add more here
 	]);
 
